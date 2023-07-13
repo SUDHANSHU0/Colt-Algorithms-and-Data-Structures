@@ -12,4 +12,4 @@ function capitalizeFirst(arr) {
   return result.concat(capitalizeFirst(arr.slice(1)));
 }
 
-console.log(capitalizeFirst(['car', 'taco', 'banana'])); // ['Car','Taco','Banana']
+console.log(capitalizeFirst(["car", "taco", "banana"])); // ['Car','Taco','Banana']
